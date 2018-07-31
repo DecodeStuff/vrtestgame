@@ -1,0 +1,12 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+	<script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v3.1.2/dist/aframe-physics-system.min.js"></script>
+    <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script> 
+  </head>
+  <body class="a-body ">
+    <a-scene class="fullscreen" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui=""><canvas class="a-canvas" data-aframe-canvas="true" width="269" height="134"></canvas>
+      <a-sky color="#ECECEC" position="0 0 1.8584839798563006" material="" geometry=""></a-sky>
+    <a-entity position="0.7626174616332237 1.7725029523776783 -3.0696528168413115" geometry="primitive:sphere" material="color:#ff0000" id="Sphere"></a-entity><a-entity position="0.6165886192753058 1.4576055442527642 5.107883159606979" obj-model="" collada-model="" geometry="depth:1.83;height:2.36;width:1.77" material="color:#80ffff;vertexColors:face"></a-entity><a-entity id="WMR Right" daydream-controls="hand:right" gearvr-controls="hand:right" oculus-touch-controls="hand:right" vive-controls="hand:right" windows-motion-controls="" laser-controls=""></a-entity><a-entity id="WMR LEFT" daydream-controls="hand:left" gearvr-controls="hand:left" oculus-touch-controls="" vive-controls="" windows-motion-controls="hand:left" laser-controls="hand:left"></a-entity></a-scene>
+  <a-entity id="left-hand" teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head;"></a-entity>
+  <a-entity id="right-hand" teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head;"></a-entity>
+<textarea readonly="" style="font-size: 12pt; border: 0px; padding: 0px; margin: 0px; position: absolute; left: -9999px; top: 0px;"></textarea><textarea readonly="" style="font-size: 12pt; border: 0px; padding: 0px; margin: 0px; position: absolute; left: -9999px; top: 0px;"></textarea></body></html>
